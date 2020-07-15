@@ -5,35 +5,43 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>あすかの部屋</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     </head>
     <body>
-        <header>
-            <h1><a href="index.html"><img src="img/navi_logo.png" alt="logo"></a></h1>
-            <nav>
-                <ul>
-                    <li><a href="profile/index.html">ぷろふぃーる<span>profile</span></a></li>
-                    <li><a href="skill/index.html">すきる<span>skill</span></a></li>
-                    <li><a href="portfolio/index.html">ぽーとふぉりお<span>portfolio</span></a></li>
+        <div id="wrapper">
+            <header>
+                <section class="navArea">
+                    <h1><a href="index.html"><img src="img/navi_logo.png" alt="logo"></a></h1>
+                    <nav class="nav" id="nav-f">
                         <ul>
-                            <li><a href="#">うぇぶさいと<span>web site</span></a></li>
-                            <li><a href="#">ばなー<span>banner</span></a></li>
-                            <li><a href="#">ろご<span>logo</span></a></li>
-                            <li><a href="#">いらすと<span>illust</span></a></li>
+                            <li><a href="profile/index.html">ぷろふぃーる<span class="sub">profile</span></a></li>
+                            <li><a href="skill/index.html">すきる<span class="sub">skill</span></a></li>
+                            <li><a href="portfolio/index.html">ぽーとふぉりお<span class="sub">portfolio</span></a></li>
+                            <li><a href="contact/index.html">こんたくと<span class="sub">contact</span></a></li>
                         </ul>
-                    <li><a href="contact/index.html">こんたくと<span>contact</span></a></li>
-                </ul>
-            </nav>
-        </header>
+                    </nav>
+                    <div id="target">
+                        <div class="target_inner">
+                            <span class="target_inner_line target_inner_1" id="line1"></span>
+                            <span class="target_inner_line target_inner_2" id="line2"></span>
+                            <span class="target_inner_line target_inner_3" id="line3"></span>
+                        </div>
+                    </div>
+                </section>
+            </header>
 
-        <main>
-            <img class="logo" src="img/logo1.png" alt="logo">
-            <div class="animation">
-                <img src="img/top.png" alt="雨雲の傘を持った女の子">
-            </div>
-        </main>
+            <main>
+                <img class="logo" src="img/logo1.png" alt="logo">
+                <div class="animation">
+                    <img src="img/top.png" alt="雨雲の傘を持った女の子">
+                </div>
+            </main>
+        </div>
 
         <footer>
             <p>Asuka's Garden</p>
         </footer>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
     </body>
 </html>

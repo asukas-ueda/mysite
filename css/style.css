@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6em;
+}
+#wrapper {
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*ヘッダー*/
+header {
+    background-color: #043c78;
+    width: 20%;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+}
+h1 img{
+    width: 50%;
+    margin: 20px;
+}
+/*ナビ*/
+.nav li {
+    list-style: none;
+}
+.nav li a {
+    display: block;
+    color: #ffffff;
+    font-size: 2.0rem;
+    text-align: left;
+    transition: 0.5;
+    text-decoration: none;
+}
+.sub {
+    display: flex;
+    font-size: 1.4rem;
+    letter-spacing: 0.6rem;
+    padding-bottom: 20px;
+}
+
+
+/*メイン*/
+main {
+    background: #4AACBC;
+    width: 80%;
+}
+.logo {
+    float: left;
+    margin: 20px 50px;
+}
+.animation img {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    float: right;
+    width: 30%;
+}
+
+/*フッター*/
+footer p {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+}
