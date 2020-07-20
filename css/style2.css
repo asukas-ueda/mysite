@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6em;
+}
+#wrapper {
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*ヘッダー*/
+header {
+    background-color: #ffffff;
+    width: 20%;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+}
+h1 img{
+    width: 50%;
+    margin: 20px;
+}
+/*ナビ*/
+.nav li {
+    list-style: none;
+}
+.nav li a {
+    display: block;
+    color: #043c78;
+    font-size: 2.0rem;
+    text-align: left;
+    transition: 0.5;
+    text-decoration: none;
+}
+.sub {
+    display: flex;
+    font-size: 1.4rem;
+    letter-spacing: 0.6rem;
+    padding-bottom: 20px;
+}
+
+
+/*メイン*/
+main {
+    background: #043c78;
+    width: 80%;
+}
