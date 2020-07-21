@@ -53,3 +53,117 @@ main {
     background: #043c78;
     width: 80%;
 }
+/*ぷろふぃーる*/
+.title {
+    color: #ffffff;
+    text-align: center;
+}
+h2 {
+    font-size: 5.0rem;
+}
+.sub2 {
+    font-size: 2.5rem;
+    letter-spacing: 2rem;
+}
+/*六角形*/
+.pro_wrapper {
+    margin: 30px 100px;
+}
+.hexagon {
+    position: relative;
+    width: 100px;
+  }
+.hexagon::before {
+    display: block;
+    padding-top: 173.205080757%;  /* 3 / √3 * 100 */
+    content: '';
+}
+.hexagon__inner-1, .hexagon__inner-2, .hexagon__inner-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hexagon__inner-2 {
+    transform: rotate(120deg);
+}
+.hexagon__inner-3 {
+    transform: rotate(-120deg);
+}
+.hexagon__inner-1::before, .hexagon__inner-1::after,
+.hexagon__inner-2::before, .hexagon__inner-2::after,
+.hexagon__inner-3::before, .hexagon__inner-3::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 5px;
+    content: '';
+    background-color: #ffffff;
+}
+.hexagon__inner-1::before, .hexagon__inner-2::before, .hexagon__inner-3::before {
+    top: 0;
+}
+.hexagon__inner-1::after, .hexagon__inner-2::after, .hexagon__inner-3::after {
+    bottom: 0;
+}
+
+.hexagon2 {
+    position: relative;
+    width: 100px;
+    background-color: #ffffff;
+}
+.hexagon3 {
+    background-color: #4AACBC;
+}
+.hexagon2::before {
+    display: block;
+    padding-top: 173.205080757%;  /*  3 / √3 x 100  */
+    content: '';
+}
+.hexagon__inner-4, .hexagon__inner-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.hexagon__inner-6, .hexagon__inner-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4AACBC;
+}
+.hexagon__inner-4, .hexagon__inner-6 {
+    transform: rotate(120deg);
+}
+.hexagon__inner-5, .hexagon__inner-7 {
+    transform: rotate(-120deg);
+}
+
+.pro_box2 {
+    float: left;
+    margin-left: 150px;
+}
+.pro_box {
+    position: relative;
+}
+.pro_list strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 120px;
+    text-align: center;
+}
+.pro_list p {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    width: 120px;
+    text-align: center;
+}
