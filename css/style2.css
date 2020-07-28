@@ -44,6 +44,12 @@ h1 img{
     transition: 0.5;
     text-decoration: none;
 }
+.nav li a:hover {
+    color: #99b1c5;
+}
+.nav li li a:hover {
+    color: #ffffff;
+}
 .sub {
     display: flex;
     font-size: 1.4rem;
