@@ -67,6 +67,7 @@ main {
 .title {
     color: #ffffff;
     text-align: center;
+    margin-top: 20px;
 }
 h2 {
     font-size: 5.0rem;
@@ -217,4 +218,35 @@ table td {
 }
 table tr:nth-child(odd){
     background-color: #4AACBC
+}
+
+/*コンタクト*/
+.contact_wrapper {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "M PLUS Rounded 1c";
+}
+.contact_wrapper strong {
+    font-size: 2.8rem;
+    color: #ffffff;
+}
+.contact_wrapper p {
+    font-size: 3.0rem;
+    color: #043c78;
+    background-color: #4AACBC;
+    width: 50%;
+    margin: 0 auto;
+}
+.contact_wrapper img {
+    width: 600px;
+}
+/*フッター*/
+footer {
+    height: 30px;
+}
+footer p {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
 }
