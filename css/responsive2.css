@@ -23,6 +23,16 @@
         height: auto;
     }
 
+    /*プロフィール*/
+    .pro_wrapper {
+        position: absolute;
+    }
+    .skill_wrapper {
+        top: initial;
+        bottom: 100px;
+        left: 25%;
+    }
+
     footer {
         width: 100%;
         position: absolute;
@@ -36,10 +46,10 @@
     .nav {
         position: fixed;
         top: 0;
-        left: -445px;
+        left: -1000px;
         width: 100%;
         height: 100vh;
-        background: #043c78;
+        background: #ffffff;
         padding-top: 55px;
         transition: 1s;
         text-align: center;
