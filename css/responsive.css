@@ -3,24 +3,53 @@
         position: relative;
     }
     header {
-        background: none;
-        width: 0px;
-    }
-    #wrapper {
-        height: 900px;
+        background: #000000;
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        top: 0;
     }
     h1 {
-        text-align: center;
+        display: none;
+    }
+    #wrapper {
+        display: initial;
+        flex-wrap: initial;
     }
     .animation {
         margin: 0 auto;
     }
     .animation img {
+        top: initial;
         bottom: 0;
     }
     main {
+        margin-top: 80px;
         width: 100%;
+        height: 900px;
+    }
+
+    /*ポートフォリオ*/
+    .other_main {
         height: auto;
+    }
+    .po_list {
+        grid-template-columns: 1fr;
+    }
+
+    .explain {
+        padding-bottom: 30px;
+    }
+
+    .main_content1, .main_content2 {
+        grid-template-columns: 1fr;
+    }
+    .main_box img {
+        margin-bottom: 20px;
+    }
+
+    .page_nav {
+        padding-bottom: 50px;
     }
 
     footer {
@@ -36,20 +65,22 @@
     .nav {
         position: fixed;
         top: 0;
-        left: -445px;
+        left: -105%;
         width: 100%;
         height: 100vh;
         background: #043c78;
         padding-top: 55px;
         transition: 1s;
-        text-align: center;
+    }
+    .nav li {
+        margin-left: 20px;
     }
     /*ハンバーガーメニュー*/
     /*============.toggle_btn=============*/
     #target {
         display: block;
         position: absolute;
-        top: 40px;
+        top: 20px;
         right: 40px;
         width: 40px;
         height: 40px;
@@ -67,7 +98,7 @@
         left: 0;
         width: 40px;
         height: 3px;
-        background-color: #33141f;
+        background-color: #ffffff;
         transition: 1s;
         border-radius: 4px;
     }
@@ -95,5 +126,19 @@
     .linec {
         transform: rotate(-225deg);
         top: 20px;
+    }
+}
+
+/*スマホ*/
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 70%;
+    }
+    .animation img {
+        right: initial;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
     }
 }

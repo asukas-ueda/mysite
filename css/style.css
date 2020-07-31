@@ -31,11 +31,9 @@ h1 img{
     margin: 20px;
 }
 /*ナビ*/
-.nav {
-    margin-left: 20px;
-}
 .nav li {
     list-style: none;
+    margin-left: 20px;
 }
 .nav li a {
     display: block;
@@ -130,6 +128,9 @@ h2 {
 }
 .main_box {
     text-align: center;
+}
+.main_box img {
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .5);
 }
 .main_box h3, .explain {
     text-align: left;
