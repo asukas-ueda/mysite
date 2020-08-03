@@ -14,7 +14,11 @@
         flex-wrap: initial;
     }
     h1 {
-        display: none;
+        text-align: initial;
+    }
+    h1 img {
+        width: 70px;
+        margin: 5px;
     }
     .animation {
         margin: 0 auto;

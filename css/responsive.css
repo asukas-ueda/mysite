@@ -1,6 +1,13 @@
+@media screen and (min-width: 1500px) {
+    h1 img {
+        width: 200px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     body {
         position: relative;
+        height: initial;
     }
     header {
         background: #000000;
@@ -10,7 +17,11 @@
         top: 0;
     }
     h1 {
-        display: none;
+        text-align: initial;
+    }
+    h1 img {
+        width: 70px;
+        margin: 5px;
     }
     #wrapper {
         display: initial;
@@ -65,9 +76,9 @@
     .nav {
         position: fixed;
         top: 0;
-        left: -105%;
+        left: -100%;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background: #043c78;
         padding-top: 55px;
         transition: 1s;
