@@ -7,7 +7,6 @@
 @media screen and (max-width: 1024px) {
     body {
         position: relative;
-        height: initial;
     }
     header {
         background: #000000;
@@ -37,7 +36,6 @@
     main {
         margin-top: 80px;
         width: 100%;
-        height: 900px;
     }
 
     /*ポートフォリオ*/
