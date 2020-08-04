@@ -68,12 +68,16 @@ main {
     float: left;
     margin: 20px 50px;
 }
+.logo img {
+    z-index: 25;
+}
 .animation img {
     position: absolute;
     bottom: 80px;
     right: 50px;
     float: right;
     width: 400px;
+    z-index: 5;
 }
 
 /*ぽーとふぉりお*/

@@ -235,8 +235,9 @@ table tr:nth-child(odd){
     font-size: 3.0rem;
     color: #043c78;
     background-color: #4AACBC;
+    border-radius: 10px;
     width: 50%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 .contact_wrapper img {
     width: 600px;

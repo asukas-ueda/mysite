@@ -37,6 +37,9 @@
         margin-top: 80px;
         width: 100%;
     }
+    .title {
+        padding-top: 30px;
+    }
 
     /*ポートフォリオ*/
     .other_main {
@@ -46,8 +49,15 @@
         grid-template-columns: 1fr;
     }
 
+    .main_box h3, .explain {
+        width: 60%;
+        margin: 0 auto;
+    }
     .explain {
         padding-bottom: 30px;
+    }
+    .explain li {
+        text-align: left;
     }
 
     .main_content1, .main_content2 {
@@ -61,11 +71,6 @@
         padding-bottom: 50px;
     }
 
-    footer {
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-    }
     /*ナビ*/
     .navArea {
         width: 100%;

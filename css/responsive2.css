@@ -28,16 +28,15 @@
     }
     main {
         width: 100%;
-        height: auto;
         margin-top: 80px;
     }
-    .pro_main {
-        height: 900px;
+    .title {
+        padding-top: 30px;
     }
 
     /*プロフィール*/
     .pro_wrapper {
-        margin: 70px 0;
+        margin: 120px 0;
         position: absolute;
         top: 50px;
         left: 45%;
@@ -64,11 +63,6 @@
         margin-bottom: 50px;
     }
 
-    footer {
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-    }
     /*ナビ*/
     .navArea {
         width: 100%;
@@ -156,15 +150,8 @@
     }
 
     /*プロフィール*/
-    .pro_body {
-        height: 1100px;
-    }
-    .pro_main {
-        height: 1100px;
-    }
     .pro_wrapper {
         position: absolute;
-        top: 50px;
         left: 50%;
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
@@ -180,5 +167,16 @@
         border-radius: initial;
         top: initial;
         bottom: 80px;
+    }
+
+    /*コンタクト*/
+    .contact_wrapper strong {
+        font-size: initial;
+    }
+    .contact_wrapper p {
+        width: 80%;
+    }
+    .contact_wrapper img {
+        width: 90%;
     }
 }
