@@ -1,6 +1,36 @@
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 2000px) {
+    body {
+        font-size: 3.6rem;
+    }
     h1 img {
         width: 200px;
+    }
+    header {
+        height: auto;
+    }
+    main {
+        height: auto;
+    }
+
+    .title h2 {
+        font-size: 8rem;
+    }
+    .po_menu {
+        height: auto;
+    }
+    .po_menu img {
+        height: 400px;
+    }
+    .img_box img {
+        height: initial;
+        width: 80%;
+    }
+
+    footer {
+        height: 70px;
+    }
+    footer p {
+        line-height: 70px;
     }
 }
 
@@ -30,6 +60,7 @@
         margin: 0 auto;
     }
     .animation img {
+        width: 90%;
         top: initial;
         bottom: 0;
     }
@@ -46,6 +77,8 @@
         height: auto;
     }
     .po_list {
+        margin: 0 auto;
+        width: 70%;
         grid-template-columns: 1fr;
     }
 
@@ -62,9 +95,6 @@
 
     .main_content1, .main_content2 {
         grid-template-columns: 1fr;
-    }
-    .main_box img {
-        margin-bottom: 20px;
     }
 
     .page_nav {
@@ -154,5 +184,38 @@
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
+    }
+
+    .title h2 {
+        font-size: 4.0rem;
+    }
+    .sub2 {
+        letter-spacing: 1rem;
+        font-size: 1.4rem;
+    }
+
+    /*ポートフォリオ*/
+    .po_menu {
+        height: initial;
+    }
+    .po_menu img, .img_box img {
+        height: initial;
+        width: 80%;
+    }
+    .po_menu h3 {
+        padding-bottom: 10px;
+    }
+
+    .main_box h3, .explain {
+        width: 90%;
+    }
+    .main_box h3 {
+        font-size: 1.6rem;
+    }
+    .explain ul li {
+        font-size: 1.4rem;
+    }
+    .main_content2 img {
+        width: 90%;
     }
 }

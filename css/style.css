@@ -136,9 +136,14 @@ h2 {
 }
 .main_box img {
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+}
+.main_box h3 {
+    padding-bottom: 10px;
 }
 .main_box h3, .explain {
-    text-align: left;
+    margin: 0 auto;
+    width: 80%;
 }
 .img_box {
     margin: 0 auto;
@@ -171,6 +176,7 @@ h2 {
 }
 .explain ul li {
     list-style: none;
+    text-align: left;
 }
 
 /*バナー*/

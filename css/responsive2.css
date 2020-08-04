@@ -1,3 +1,57 @@
+@media screen and (min-width: 2000px) {
+    body {
+        font-size: 3.6rem;
+    }
+    h1 img {
+        width: 200px;
+    }
+
+    .title h2 {
+        font-size: 8rem;
+    }
+    .img_box img {
+        height: initial;
+        width: 80%;
+    }
+
+    .pro_wrapper {
+        margin: 50px 300px;
+    }
+    .hexagon {
+        width: 180px;
+    }
+    .hexagon2 {
+        width: 180px;
+    }
+    .pro_box2 {
+        bottom: 156px;
+        left: 258px;
+    }
+    .hexagon__inner-1::before, .hexagon__inner-1::after,
+    .hexagon__inner-2::before, .hexagon__inner-2::after,
+    .hexagon__inner-3::before, .hexagon__inner-3::after {
+        height: 10px;
+    }
+    .pro_list strong {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .skill_wrapper {
+        width: 800px;
+        height: 600px;
+        position: absolute;
+        top: 230px;
+        right: 200px;
+    }
+
+    footer {
+        height: 70px;
+    }
+    footer p {
+        line-height: 70px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     body {
         position: relative;
@@ -19,12 +73,6 @@
     h1 img {
         width: 70px;
         margin: 5px;
-    }
-    .animation {
-        margin: 0 auto;
-    }
-    .animation img {
-        bottom: 0;
     }
     main {
         width: 100%;
