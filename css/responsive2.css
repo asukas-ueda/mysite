@@ -37,11 +37,17 @@
         width: 100%;
     }
     .skill_wrapper {
-        width: 800px;
-        height: 600px;
+        width: 600px;
+        height: 450px;
         position: absolute;
         top: 230px;
         right: 200px;
+    }
+    .skill_wrapper h3 {
+        font-size: 3rem;
+    }
+    table th, table td {
+        font-size: 2.8rem;
     }
 
     footer {
