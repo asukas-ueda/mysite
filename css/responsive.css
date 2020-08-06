@@ -5,6 +5,12 @@
     h1 img {
         width: 200px;
     }
+    .nav li a {
+        font-size: 4rem;
+    }
+    .sub {
+        font-size: 2.4rem;
+    }
 
     .title h2 {
         font-size: 8rem;
@@ -21,10 +27,13 @@
     }
     .img_box img {
         height: initial;
-        width: 80%;
+        width: 60%;
     }
     .img_box2 img {
-        width: 50%;
+        width: 45%;
+    }
+    .img_box3 {
+        width: 60%;
     }
 
     footer {
